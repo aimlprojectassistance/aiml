@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Expert Python, AI/ML project assistance for B.Tech, M.Tech, PhD, BCA, MCA. Custom coding, reports, and research papers." />
+  <meta name="keywords" content="Python projects, AI ML projects, CSE projects, machine learning, research paper writing, BTech MTech BCA MCA" />
+  <meta name="author" content="Your Name" />
+  <title>Python & AI/ML Project Help </title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8fafc;
+      color: #334155;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #0f172a;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 { font-size: 32px; }
+    header p { font-size: 16px; opacity: 0.85; }
+
+    .hero {
+      background: #38bdf8;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 { font-size: 30px; margin-bottom: 10px; }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: 40px auto;
+    }
+    .section h2 {
+      text-align: center;
+      color: #0f172a;
+      margin-bottom: 30px;
+      font-size: 26px;
+    }
+
+    .services-grid, .choose-us-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .section.services {
+      background-color: #e0f2fe;
+      border-radius: 10px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+      transition: all 0.3s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+    .card h3 {
+      color: #0f172a;
+      margin-bottom: 10px;
+    }
+
+    .toggle-btn {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      margin-top: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s ease;
+    }
+
+    .toggle-btn:hover {
+      background-color: #1d4ed8;
+    }
+
+    .more-text {
+      display: none;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #475569;
+    }
+
+    .more-text ul {
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+
+    .why-choose-us {
+      background: #e0f2fe;
+      border-radius: 10px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .contact-item p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    .contact a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      font-size: 14px;
+      background: #1e293b;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Python & AI/ML Project Assistance</h1>
+    <p>For B.Tech, M.Tech, PhD, BCA & MCA | Computer Science Projects</p>
+  </header>
+
+  <section class="hero">
+    <h2>Need Help with Your AI/ML or Python Project?</h2>
+    <p>Get 100% working code, complete documentation, and research paper assistance — on time and professionally delivered.</p>
+  </section>
+
+  <section class="section services">
+    <h2>🚀 Services Offered</h2>
+    <div class="services-grid">
+      <!-- Cards here -->
+       <!-- AI/ML Projects -->
+      <div class="card">
+        <h3>🧠 AI/ML Projects</h3>
+        <p>Machine Learning, Deep Learning, NLP, Predictive Modeling, Sentiment analysis, model building and deployment & more.</p>
+        <button class="toggle-btn" onclick="toggleContent(this)">Read More</button>
+        <div class="more-text">
+          <ul>
+            <li>Choose a real-world problem that can be solved using AI/ML.</li>
+            <li>Objectives should align with the problem and be technically feasible.</li>
+            <li>Understand its features, clean the data, and handle missing values.</li>
+            <li>Select suitable ML algorithms (classification, regression, etc.).</li>
+            <li>Train the model and fine-tune using parameters.</li>
+            <li>Use metrics like Accuracy, Precision, Recall, or RMSE to measure performance.</li>
+            <li>Mention limitations and suggest improvements with better data or algorithms.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Python Development -->
+      <div class="card">
+        <h3>🐍 Python Development</h3>
+        <p>Custom Python scripts, Flask/Django, APIs, automation, web scraping, Langchain & more.</p>
+        <button class="toggle-btn" onclick="toggleContent(this)">Read More</button>
+        <div class="more-text">
+          <ul>
+            <li>Python is clean and readable and perfect for students working on AI/ML projects.</li>
+            <li>Works for both small academic and large industry-level AI systems.</li>
+            <li>Handles full pipeline: data collection to deployment.</li>
+            <li>Used by top companies and research labs globally.</li>
+            <li>Web scraping using BeautifulSoup, Selenium, or Scrapy</li>
+            <li>LangChain or LLM integration in Python-based workflows</li>
+            <li>Includes libraries like NumPy, Pandas, Scikit-learn, TensorFlow, Langchain, etc.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- LLM Based Projects -->
+      <div class="card">
+        <h3>🤖 LLM Based Projects</h3>
+        <p>LLM Integration, ChatGPT, Gemini, and other LLMs for text generation, Q&A systems, summarization & more.</p>
+        <button class="toggle-btn" onclick="toggleContent(this)">Read More</button>
+        <div class="more-text">
+          <ul>
+            <li>Build apps using ChatGPT, Gemini, and open-source LLMs.</li>
+            <li>Use for text generation, summarization, Q&A, etc.</li>
+            <li>Integrate with LangChain for workflows and chaining.</li>
+            <li>Create chatbots, content generators, and more.</li>
+            <li>Prompt engineering & custom prompt design</li>
+            <li>Combine with Flask, vector databases, and Python tools.</li>
+            <li>Fine-tune LLMs with custom datasets for domain-specific solutions.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Internship & Mini Projects -->
+      <div class="card">
+        <h3>🛠️ Mini & Internship Projects </h3>
+        <p>Requirement Gathering, Design, Development, Testing, Documentation & Presentation & more.</p>
+        <button class="toggle-btn" onclick="toggleContent(this)">Read More</button>
+        <div class="more-text">
+          <ul>
+            <li>We support complete project development: requirement gathering, coding, testing and documentation.</li>
+            <li>Ideal for B.Tech, M.Tech, BCA, and MCA internship or mini-project requirements.</li>
+            <li>Mini projects typically span 4–6 weeks and are aligned with academic needs.</li>
+            <li>Focus on core functionality and clean implementation using the latest tools.</li>
+            <li>Get a complete project report and presentation slides to explain your work.</li>
+            <li>We guide you in preparing for viva and explaining the project in interviews.</li>
+            <li>Choose from trending domains like AI, ML, Web Dev, Automation, and more.</li>
+          </ul>
+          
+        </div>
+      </div>
+
+
+      <!-- Research Paper & Documentation -->
+      <div class="card">
+        <h3>📄 Research Paper & Documentation</h3>
+        <p>IEEE/Scopus papers, plagiarism-free documentation, final-year project reports, synopsis & more.</p>
+        <button class="toggle-btn" onclick="toggleContent(this)">Read More</button>
+        <div class="more-text">
+          <ul>
+            <li>Research documentation tailored to institutional needs.</li>
+            <li>Follows IEEE, Springer, Elsevier standard structures.</li>
+            <li>Supports national and international conference publication.</li>
+            <li>Helps publish in free or paid journals.</li>
+            <li>Scopus-indexed publication adds strong academic value.</li>
+            <li>Supports SCI, SCIE, ESCI, AHCI, ACM, Google Scholar indexing.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Python Weekend Training -->
+      <div class="card">
+        <h3>🖥️ Python Weekend Training</h3>
+        <p>Basic to Advanced Python, Real-time Assignments, Mini Project, Weekend Batches</p>
+        <button class="toggle-btn" onclick="toggleContent(this)">Read More</button>
+        <div class="more-text">
+          <ul>
+            <li>Weekend Python classes conducted by professionals working in top IT companies.</li>
+            <li>Learn core Python with practical, hands-on training every Saturday and Sunday.</li>
+            <li>Curriculum designed as per industry requirements and hiring trends.</li>
+            <li>Assignments and mini projects based on real-time use cases and scenarios.</li>
+            <li>Ideal for students, beginners, and working professionals looking to upskill.</li>
+            <li>Includes basics to advanced concepts: loops, functions, OOP, file handling, and more.</li>
+            <li>Guidance for applying Python in AI/ML, automation, web development.</li>
+          </ul>
+          
+        </div>
+      </div>
+    
+    </div>
+  </section>
+
+ <!-- WHY CHOOSE US SECTION -->
+ <section class="section why-choose-us">
+  <h2>💼 Why Choose Us</h2>
+  <div class="choose-us-grid">
+    <div class="card">
+      <h3>👨‍💻 Expert Developers</h3>
+      <p>We have highly qualified and experienced developers from top MNCs who specialize in AI/ML, Python development for academic and research-based projects.</p>
+    </div>
+    <div class="card">
+      <h3>🧑‍🏫 Senior Academic Writers</h3>
+      <p>Our documentation, report writing, and publication team includes experienced faculty members with over 10 years of teaching and research experience from reputed institutions.</p>
+    </div>
+    <div class="card">
+      <h3>✅ Quality Assurance</h3>
+      <p>We are committed to delivering optimal solutions with proper documentation, plagiarism-free research papers, and on-time project submission—tailored to your academic requirements.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Updated Contact Section -->
+  <section class="section contact">
+    <h2>📞 Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <p><strong>📧 Email:</strong></p>
+        <p><a href="mailto:aimlprojectassistance@gmail.com">aimlprojectassistance@gmail.com</a></p>
+      </div>
+      <div class="contact-item">
+        <p><strong>📱 Phone 1:</strong></p>
+        <p><a href="tel:+9011052791"> +91-9011052791</a></p>
+      </div>
+      <div class="contact-item">
+        <p><strong>📱 Phone 2:</strong></p>
+        <p><a href="tel:+9421808925"> +91-9421808925</a></p>
+      </div>
+      <div class="contact-item">
+        <p><strong><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:20px; vertical-align:middle; margin-right:6px;">
+          WhatsApp:</strong></p>
+        <p>
+          <a href="https://wa.me/919011052791" target="_blank">
+            Chat on WhatsApp
+          </a>
+        </p>
+      </div>      
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 aimlprojectassistance. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    function toggleContent(button) {
+      const content = button.nextElementSibling;
+      const isVisible = content.style.display === "block";
+      content.style.display = isVisible ? "none" : "block";
+      button.textContent = isVisible ? "Read More" : "Read Less";
+    }
+  </script>
+
+</body>
+</html>
